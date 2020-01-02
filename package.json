@@ -1,7 +1,7 @@
 {
   "name": "samoonpai",
   "version": "1.0.0",
-  "description": "My laudable Nuxt.js project",
+  "description": "สมุนไพรเพื่อสุขภาพ",
   "author": "lorjula design",
   "private": true,
   "scripts": {
@@ -9,9 +9,10 @@
     "build": "nuxt build",
     "start": "nuxt start",
     "generate": "nuxt generate",
-    "deploy": "gh-pages -d dist",
     "build:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt build",
-    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate"
+    "generate:gh-pages": "DEPLOY_ENV=GH_PAGES nuxt generate",
+    "deploy:gh-pages": "gh-pages -d dist",
+    "deploy:master": "push-dir --dir=dist --branch=master --allow-unclean"
   },
   "dependencies": {
     "@nuxtjs/axios": "^5.3.6",
