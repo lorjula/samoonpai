@@ -6,16 +6,16 @@
         <div class="background" style="background-color:#e54500 ">
           <ul class="nav justify-content-end">
             <li class="nav-item">
-              <a class="nav-link active" href="/samoonpai" style="color: #ffffff;">สมุนไพร</a>
+              <nuxt-link class="nav-link active" to="/samoonpai" style="color: #ffffff;">สมุนไพร</nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/tanyaped" style="color: #ffffff;">ธัญพืช</a>
+              <nuxt-link class="nav-link" to="/samoonpai/tanyaped" style="color: #ffffff;">ธัญพืช</nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/peedpol" style="color: #ffffff;">พืชผัก</a>
+              <nuxt-link class="nav-link" to="/samoonpai/peedpol" style="color: #ffffff;">พืชผัก</nuxt-link>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/polmi" style="color: #ffffff;">ผลไม้</a>
+              <nuxt-link class="nav-link" to="/samoonpai/polmi" style="color: #ffffff;">ผลไม้</nuxt-link>
             </li>
           </ul>
         </div>
