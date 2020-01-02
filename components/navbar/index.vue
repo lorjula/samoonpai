@@ -22,13 +22,13 @@
           <nuxt-link class="nav-link dropdown" style="color: #ffffff;" to="/samoonpai">สมุนไพร</nuxt-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link active" href="/tanyaped" style="color: #ffffff;">ธัญพืช</a>
+          <nuxt-link class="nav-link active" to="./tanyaped" style="color: #ffffff;">ธัญพืช</nuxt-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/peedpol" style="color: #ffffff;">พืชผัก</a>
+          <nuxt-link class="nav-link" to="./peedpol" style="color: #ffffff;">พืชผัก</nuxt-link>
         </li>
         <li class="nav-item">
-          <a class="nav-link" href="/polmi" style="color: #ffffff;">ผลไม้</a>
+          <nuxt-link class="nav-link" to="./polmi" style="color: #ffffff;">ผลไม้</nuxt-link>
         </li>
       </ul>
     </nav>
